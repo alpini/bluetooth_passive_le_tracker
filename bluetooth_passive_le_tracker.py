@@ -18,7 +18,7 @@ _LOGGER = logging.getLogger(__name__)
 logging.getLogger(__name__).setLevel(logging.DEBUG)
 
 
-REQUIREMENTS = ['pygatt==3.0.0']
+REQUIREMENTS = ['pygatt==3.0.1']
 
 BLE_PREFIX = 'BLE_'
 MIN_SEEN_NEW = 5
